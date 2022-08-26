@@ -1,0 +1,16 @@
+body {
+	font-family: Libertad;
+    background-color: whitesmoke;
+}
+
+img {
+    width: 50%;
+    float: right;
+}
+
+.container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
