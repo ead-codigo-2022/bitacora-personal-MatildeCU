@@ -14,3 +14,58 @@ img {
     margin-right: auto;
 
 }
+/**
+ * Selectores por elemento HTML
+ */
+ body {
+    font-family: sans-serif;
+    background: whitesmoke;
+    color: #666;
+    font-size: 18px;
+  }
+  table {
+    width: 50%;
+  }
+  th {
+    font-weight: bold;
+    text-align: center;
+  }
+  /**
+   * Selector descendente
+   */
+  thead th {
+    font-weight: normal;
+    background: #333;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: .8em;
+  }
+  /**
+   * Múltiples selectores
+   */
+  th,
+  td {
+    padding: 1rem;
+    vertical-align: middle;
+  }
+  td {
+    font-family: monospace;
+    color: rgb(113, 113, 139);
+    font-size: 1.2em;
+  }
+  /**
+   * Selector de clase
+   */
+  .destacado {
+    border: 2px dashed rgb(113, 113, 139);
+  }
+  /**
+   * Por posición
+   */
+  th:first-child {
+    text-align: left;
+  }
+  tr:last-child td {
+    border: 2px dotted rgb(62, 83, 62);
+  }
