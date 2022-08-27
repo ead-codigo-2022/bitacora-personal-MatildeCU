@@ -20,6 +20,11 @@ img {
     margin-left: 500px;
     margin-right: auto;
 }
+
+.bold {
+    font-weight: bold;
+}
+
 /**
  * Selectores por elemento HTML
  */
