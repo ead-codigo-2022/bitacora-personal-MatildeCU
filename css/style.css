@@ -9,24 +9,29 @@ img {
 }
 
 .container {
-    max-width: 800px;
-    margin-left: auto;
+    max-width: 700px;
+    margin-left: 30px;
     margin-right: auto;
+    border: 2px dashed rgb(188, 203, 215);
 
+}
+
+.bitacora {
+    margin-left: 500px;
+    margin-right: auto;
 }
 /**
  * Selectores por elemento HTML
  */
  body {
-    font-family: sans-serif;
-    background: whitesmoke;
     color: #666;
     font-size: 18px;
   }
   table {
-    width: 50%;
+    width: 100%;
   }
   th {
+    font-family: monospace;
     font-weight: bold;
     text-align: center;
   }
