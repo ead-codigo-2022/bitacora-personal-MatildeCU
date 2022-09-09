@@ -56,8 +56,11 @@
     display: grid;
     gap: 2rem;
     margin-bottom: 4rem;
-    /*grid-template-columns: 25% 25% 25% 25%  ;*/
-    grid-template-columns: auto auto auto ;
+    /*grid-template-columns: 25% 25% 25% 25% ;
+    *grid-template-columns: 200px 1fr 2fr ;
+    *grid-template-columns: 200px 1fr ;
+    */
+    grid-template-columns: repeat (3, auto) ;
     column-gap: 20px;
     row-gap: 20px;
     background-color: aqua;
