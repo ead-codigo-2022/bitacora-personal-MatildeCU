@@ -52,3 +52,13 @@
     text-align: center;
    
 }
+.somos__body {
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    /*grid-template-columns: 25% 25% 25% 25%  ;*/
+    grid-template-columns: auto auto auto ;
+    column-gap: 20px;
+    row-gap: 20px;
+    background-color: aqua;
+  }
