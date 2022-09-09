@@ -1,7 +1,14 @@
 body {
 	font-family: Libertad;
     background-color: whitesmoke;
+    line-height: normal;
+    text-align: left;
 }
+
+/**
+ * variables
+ */
+ 
 
 img {
     width: 50%;
