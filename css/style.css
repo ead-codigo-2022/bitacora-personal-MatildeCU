@@ -1,6 +1,13 @@
+:root {
+--color-primary : whitesmoke ;
+--color-secundary : #E6B3BE ;
+
+--border-radius : 10px;
+} 
+
 body {
 	font-family: Libertad;
-    background-color: whitesmoke;
+    background-color: var(--color-primary);
     line-height: normal;
     text-align: left;
 }
@@ -22,7 +29,16 @@ img {
     border: 2px dashed rgb(188, 203, 215);
 
 }
-
+.button {
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  border-radius: var(--border-radius);
+  background-color: var(--color-secundary);
+}
 .bitacora {
     margin-left: 500px;
     margin-right: auto;
