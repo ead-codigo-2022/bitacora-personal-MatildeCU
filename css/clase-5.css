@@ -9,6 +9,24 @@
     --color-tertiary: #fff;
     --border-radius: 10px;
 }
+
+.container {
+	display: flex; 
+	gap: 10px;
+	flex-wrap: wrap;
+    background-color: #fff2cc;
+}
+.box {
+    padding: 10px;
+    border: 1px solid #bbb;
+	transition: all 0.1s linear;
+}
+
+.box:hover {
+	color:#bbb;
+	font-size:2rem;
+	transition: all 0.1s linear;
+}
 .somos {
     max-width: 400px;
     margin-left: auto;
