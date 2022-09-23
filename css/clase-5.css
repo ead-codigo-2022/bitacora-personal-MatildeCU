@@ -14,8 +14,26 @@
 .container {
 	display: flex; 
 	gap: 10px;
+  padding: 1rem;
 	flex-wrap: wrap;
-    background-color: var(--color-primary);
+  background-color: var(--color-primary);
+}
+
+.container__header {
+  display: flex; 
+  justify-content: flex-end;
+}
+
+.container__logo {
+  justify-content: flex-start;
+  position: relative;
+  display: block;
+  
+}
+.container__logo_img{
+  width: 90px;
+  height: auto;
+  
 }
 .box {
     padding: 10px;
