@@ -7,6 +7,7 @@
     --color-primary: #E6B3BE;
     --color-secundary: #8C6DCE;
     --color-tertiary: #fff;
+    --color-cuarter: white;
     --border-radius: 10px;
 }
 
@@ -14,7 +15,7 @@
 	display: flex; 
 	gap: 10px;
 	flex-wrap: wrap;
-    background-color: #fff2cc;
+    background-color: var(--color-primary);
 }
 .box {
     padding: 10px;
@@ -23,7 +24,7 @@
 }
 
 .box:hover {
-	color:#bbb;
+	color:var(--color-cuarter);
 	font-size:2rem;
 	transition: all 0.1s linear;
 }
