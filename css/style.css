@@ -39,6 +39,7 @@ img {
   border-radius: var(--border-radius);
   background-color: var(--color-secundary);
 }
+
 .bitacora {
     margin-left: 500px;
     margin-right: auto;
