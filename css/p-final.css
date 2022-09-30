@@ -76,11 +76,11 @@
     grid-template-rows: 100px auto 100px;
     max-width: 960px;
     height: 100vh;
-    margin: 2rem auto;
+    margin: 0;
     flex-direction: column;
     max-width: 540px;
-    min-height: 100px;
-    min-width: 200px;
+    min-height: 40px;
+    min-width: 22px;
     padding: 1.8rem;
   }
   .sidebar {
