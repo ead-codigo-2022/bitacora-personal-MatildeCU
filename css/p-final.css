@@ -76,9 +76,8 @@
  
 .contenido {
     display: grid;
-    grid-template-columns: minmax(auto, 240px) 1fr;
-    grid-template-rows: 100px auto 100px;
-    max-width: 960px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10px auto 10px;
     height: 100vh;
     margin: 0;
     flex-direction: column;
