@@ -1,10 +1,140 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
   text-decoration: solid;
   color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: solid;
+}
+
+:root {
+  --color-primary: whitesmoke;
+  --color-secundary: #E6B3BE;
+  --color-tres: #666;
+  --border-radius: 10px;
+}
+
+body {
+  font-family: Libertad;
+  background-color: var(--color-primary);
+  line-height: normal;
+  text-align: left;
+}
+
+.titulo {
+  background-color: rgb(61, 61, 84);
+  color: white;
+  margin: auto;
+  align-content: center;
+  padding: 10px;
+  position: relative;
+  display: flex;
+
+}
+
+.contenidos {
+  width: auto;
+  padding: 40px;
+  margin: auto;
+}
+
+.contenido_clases {
+  padding-top: 1rem;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-content: center;
+  align-content: space-between;
+
+
+}
+
+.clases_n {
+  background-color: white;
+  padding: 10px;
+  align-content: center;
+  text-decoration: solid;
+  color: #666;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.inicio {
+  background-color: rgba(231, 140, 251, 0.673);
+  padding: 10px 20px 10px 20px;
+  font-size: 1.2rem;
+  align-content: center;
+  text-decoration: solid;
+  color: var(--color-primary);
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.bitacora {
+  margin-left: 450px;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.contenido_materia {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: rgba(220, 220, 220, 0.597);
+  border-radius: var(--border-radius);
+  line-height: 2;
+  color: black;
+
+}
+
+.materia_titulo {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.materia_p {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: .65rem 1rem .35rem;
+  font-size: .90rem;
+  line-height: 1.2rem;
+  border-radius: 5px;
+  color: var(--color-tres);
+}
+
+.contenido_futer {
+  margin-top: 10%;
+  padding-top: 2rem;
+  width: auto;
+
+  display: flex;
+}
+
+.futer_titulo {
+  justify-content: center;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav {
@@ -14,134 +144,140 @@
   column-gap: 5%;
   flex-direction: row;
   justify-content: auto;
-  
-
-}
-
-.nav_logo{
- 
-font-size: 1.8rem;
-padding: 10px;
 
 
 }
 
-.nav_manu{
+.nav_logo {
+
+  font-size: 1.8rem;
+  padding: 10px;
+
+
+}
+
+.nav_manu {
   border-radius: 20px;
   padding: 10px;
   border: 1px solid #bbb;
   display: flex;
   align-items: center;
   transition: all 0.1s linear;
-  
+
 
 }
 
 .nav_manu:hover {
-color:#bbb;
-font-size:1.5rem;
-transition: all 0.1s linear;
+  color: #bbb;
+  font-size: 1.5rem;
+  transition: all 0.1s linear;
 }
 
 :root {
-    --color-primary: #E6B3BE;
-    --color-secundary: #8C6DCE;
-    --color-tertiary: #fff;
-    --color-cuarter: white;
-    --border-radius: 10px;
+  --color-primary: #E6B3BE;
+  --color-secundary: #8C6DCE;
+  --color-tertiary: #fff;
+  --color-cuarter: white;
+  --border-radius: 10px;
 }
 
 .container {
-	display: flex;
-	gap: 10px;
+  display: flex;
+  gap: 10px;
   padding: 1.2rem;
-	flex-wrap: wrap;
+  flex-wrap: wrap;
   background-color: var(--color-primary);
 }
 
 .container__header {
   justify-content: flex-end;
   text-decoration: none;
-  
+
 }
 
 .container__logo {
   justify-content: flex-start;
   position: relative;
   display: block;
-  
+
 }
-.container__logo_img{
+
+.container__logo_img {
   width: 90px;
   height: auto;
-  
+
 }
+
 .box {
-    padding: 10px;
-    border: 1px solid #bbb;
-	transition: all 0.1s linear;
+  padding: 10px;
+  border: 1px solid #bbb;
+  transition: all 0.1s linear;
 }
 
 .box:hover {
-	color:var(--color-cuarter);
-	font-size:2rem;
-	transition: all 0.1s linear;
+  color: var(--color-cuarter);
+  font-size: 2rem;
+  transition: all 0.1s linear;
 }
+
 .somos {
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-	  margin-top: 3rem;
-    padding: 2.5rem;
-    background-color: var(--color-primary);
-    border-radius: var(--border-radius);
-    line-height: 2;
-    color: var(--color-tertiary);
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2.5rem;
+  background-color: var(--color-primary);
+  border-radius: var(--border-radius);
+  line-height: 2;
+  color: var(--color-tertiary);
 }
+
 .somos__header {
-    margin-bottom: 4rem;
-    text-align: center;
-  }
-
-  .somos__epigraph {
-    display: inline-block;
-    margin-bottom: 1rem;
-    padding: .65rem 1rem .35rem;
-    font-size: .85rem;
-    line-height: 1;
-    text-transform: uppercase;
-    background-color: var(--color-tertiary);
-    border-radius: 5px;
-    color: var(--color-primary);
-  }
-
-  .somos__title {
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 2.5rem;
-    line-height: 1;
-  }
-.somos__button {
-    max-width: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-   
+  margin-bottom: 4rem;
+  text-align: center;
 }
+
+.somos__epigraph {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: .65rem 1rem .35rem;
+  font-size: .85rem;
+  line-height: 1;
+  text-transform: uppercase;
+  background-color: var(--color-tertiary);
+  border-radius: 5px;
+  color: var(--color-primary);
+}
+
+.somos__title {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.somos__button {
+  max-width: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
 .somos__body {
-    display: grid;
-    gap: 2rem;
-    margin-bottom: 4rem;
-    /*
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  /*
     grid-template-columns: 25% 25% 25% 25% ;
     grid-template-columns: 200px 1fr 2fr ;
     grid-template-columns: 200px 1fr ;
     grid-template-columns: repeat (4, 1fr);
     */
-    grid-template-columns: repeat (3, auto) ;
-    column-gap: 20px;
-    row-gap: 20px;
-    
-  }
+  grid-template-columns: repeat (3, auto);
+  column-gap: 20px;
+  row-gap: 20px;
+
+}

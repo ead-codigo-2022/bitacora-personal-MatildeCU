@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,17 +7,19 @@
 }
 
 :root {
-  --color-primary : whitesmoke ;
-  --color-secundary : #E6B3BE ;
-  --border-radius : 10px;
-  } 
-  body {
-    font-family: Libertad;
-      background-color: var(--color-primary);
-      line-height: normal;
-      text-align: left;
-  }
-.titulo{
+  --color-primary: whitesmoke;
+  --color-secundary: #E6B3BE;
+  --border-radius: 10px;
+}
+
+body {
+  font-family: Libertad;
+  background-color: var(--color-primary);
+  line-height: normal;
+  text-align: left;
+}
+
+.titulo {
   background-color: rgb(61, 61, 84);
   color: white;
   margin: auto;
@@ -27,28 +29,29 @@
   display: flex;
 
 }
-.contenidos{
+
+.contenidos {
   width: auto;
   padding: 40px;
   margin: auto;
 }
 
-.contenido_clases{
-  
+.contenido_clases {
+  padding-top: 1rem;
   width: auto;
   height: auto;
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
   align-content: center;
   align-content: space-between;
-  
- 
+
+
 }
 
-.clases_n{
+.clases_n {
   background-color: white;
   padding: 10px;
   align-content: center;
@@ -57,6 +60,18 @@
   flex-wrap: wrap;
   border-radius: 10px;
 }
+
+.inicio {
+  background-color: rgba(231, 140, 251, 0.673);
+  padding: 10px 20px 10px 20px;
+  font-size: 1.2rem;
+  align-content: center;
+  text-decoration: solid;
+  color: var(--color-primary);
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
 /*
 img {
   background-image: url(../imgDSC_8699.jpg);
@@ -67,14 +82,15 @@ img {
 */
 
 .container {
-    max-width: 700px;
-    margin-left: 30px;
-    margin-right: auto;
-    border: 2px dashed rgb(188, 203, 215);
-    
-    align-content: center;
+  max-width: 700px;
+  margin-left: 30px;
+  margin-right: auto;
+  border: 2px dashed rgb(188, 203, 215);
+
+  align-content: center;
 
 }
+
 .button {
   display: inline-block;
   padding: 10px 20px 10px 20px;
@@ -88,66 +104,74 @@ img {
 }
 
 .bitacora {
-    margin-left: 450px;
-    margin-right: auto;
-    padding: 20px;
+  margin-left: 450px;
+  margin-right: auto;
+  padding: 20px;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /**
  * Selectores por elemento HTML
  */
- body {
-    color: #666;
-    font-size: 18px;
-  }
-  table {
-    width: 100%;
-  }
-  th {
-    font-family: monospace;
-    font-weight: bold;
-    text-align: center;
-  }
-  /**
+body {
+  color: #666;
+  font-size: 18px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+/**
    * Selector descendente
    */
-  thead th {
-    font-weight: normal;
-    background: #333;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: .15em;
-    font-size: .8em;
-  }
-  /**
+thead th {
+  font-weight: normal;
+  background: #333;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-size: .8em;
+}
+
+/**
    * Múltiples selectores
    */
-  th,
-  td {
-    padding: 1rem;
-    vertical-align: middle;
-  }
-  td {
-    font-family: monospace;
-    color: rgb(113, 113, 139);
-    font-size: 1.2em;
-  }
-  /**
+th,
+td {
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+td {
+  font-family: monospace;
+  color: rgb(113, 113, 139);
+  font-size: 1.2em;
+}
+
+/**
    * Selector de clase
    */
-  .destacado {
-    border: 2px dashed rgb(113, 113, 139);
-  }
-  /**
+.destacado {
+  border: 2px dashed rgb(113, 113, 139);
+}
+
+/**
    * Por posición
    */
-  th:first-child {
-    text-align: left;
-  }
-  tr:last-child td {
-    border: 2px dotted rgb(62, 83, 62);
-  }
+th:first-child {
+  text-align: left;
+}
+
+tr:last-child td {
+  border: 2px dotted rgb(62, 83, 62);
+}

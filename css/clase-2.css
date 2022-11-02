@@ -1,109 +1,130 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    text-decoration: solid;
-  }
-  
-  :root {
-    --color-primary : whitesmoke ;
-    --color-secundary : #E6B3BE ;
-    --color-tres : #666 ;
-    --border-radius : 10px;
-    } 
-    body {
-      font-family: Libertad;
-        background-color: var(--color-primary);
-        line-height: normal;
-        text-align: left;
-    }
-  .titulo{
-    background-color: rgb(61, 61, 84);
-    color: white;
-    margin: auto;
-    align-content: center;
-    padding: 10px;
-    position: relative;
-    display: flex;
-  
-  }
-  .contenidos{
-    width: auto;
-    padding: 40px;
-    margin: auto;
-  }
-  
-  .contenido_clases{
-    
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    align-content: center;
-    align-content: space-between;
-    
-   
-  }
-  
-  .clases_n{
-    background-color: white;
-    padding: 10px;
-    align-content: center;
-    text-decoration: solid;
-    color: #666;
-    flex-wrap: wrap;
-    border-radius: 10px;
-  }
-  .bitacora {
-    margin-left: 450px;
-    margin-right: auto;
-    padding: 20px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: solid;
+}
+
+:root {
+  --color-primary: whitesmoke;
+  --color-secundary: #E6B3BE;
+  --color-tres: #666;
+  --border-radius: 10px;
+}
+
+body {
+  font-family: Libertad;
+  background-color: var(--color-primary);
+  line-height: normal;
+  text-align: left;
+}
+
+.titulo {
+  background-color: rgb(61, 61, 84);
+  color: white;
+  margin: auto;
+  align-content: center;
+  padding: 10px;
+  position: relative;
+  display: flex;
+
+}
+
+.contenidos {
+  width: auto;
+  padding: 40px;
+  margin: auto;
+}
+
+.contenido_clases {
+  padding-top: 1rem;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-content: center;
+  align-content: space-between;
+
+
+}
+
+.clases_n {
+  background-color: white;
+  padding: 10px;
+  align-content: center;
+  text-decoration: solid;
+  color: #666;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.inicio{
+  background-color: rgba(231, 140, 251, 0.673);
+  padding: 10px 20px 10px 20px;
+  font-size: 1.2rem;
+  align-content: center;
+  text-decoration: solid;
+  color: var(--color-primary);
+  flex-wrap: wrap;
+  border-radius: 10px;
+
+}
+
+.bitacora {
+  margin-left: 450px;
+  margin-right: auto;
+  padding: 20px;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.contenido_materia{
-    max-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-	margin-top: 3rem;
-    padding: 2rem;
-    background-color: rgba(220, 220, 220, 0.597);
-    border-radius: var(--border-radius);
-    line-height: 2;
-    color: black;
+.contenido_materia {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: rgba(220, 220, 220, 0.597);
+  border-radius: var(--border-radius);
+  line-height: 2;
+  color: black;
 
 }
 
-.materia_titulo{
-    margin-bottom: 2rem;
-    text-align: center;
+.materia_titulo {
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
-.materia_p{
-    display: inline-block;
-    margin-bottom: 1rem;
-    padding: .65rem 1rem .35rem;
-    font-size: .90rem;
-    line-height: 1.2rem;
-    border-radius: 5px;
-    color: var(--color-tres);
+.materia_p {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: .65rem 1rem .35rem;
+  font-size: .90rem;
+  line-height: 1.2rem;
+  border-radius: 5px;
+  color: var(--color-tres);
 }
 
-.contenido_futer{
-    width: auto;
-    background-color: black;
-    display: flex;
-
+.contenido_futer {
+  margin-top: 10%;
+  padding-top: 2rem;
+  width: auto;
+  background-color: rgb(200, 165, 165);
+  display: flex;
 }
-.img{
-    
-    
+
+.futer_titulo {
+  justify-content: center;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
