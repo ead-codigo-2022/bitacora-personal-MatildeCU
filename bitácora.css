@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: solid;
+}
+
+.titulo{
+    background-color: rgb(61, 61, 84);
+    color: white;
+    margin: auto;
+    align-content: center;
+    padding: 10px;
+    position: relative;
+    display: flex;
+
+}
+.contenidos{
+    background-color: rgb(57, 89, 54);
+    width: 90%;
+    align-content: center;
+    display: grid;
+    flex-wrap: wrap;
+    flex-basis: 25% 25% 25%;
+    padding: 40px;
+    margin: auto;
+}
+
+.contenido_clases{
+    background-color: rgb(196, 105, 105);
+    width: 70%;
+   
+}
+
+.clases_n{
+    background-color: white;
+    padding: 10px;
+    align-content: space-between;
+}
