@@ -1,43 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colorimetría de Humedales</title>
-    <link rel="stylesheet" href="../css/clase-6.css" media="all">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colorimetría de Humedales</title>
+  <link rel="stylesheet" href="../css/clase-6.css" media="all">
 </head>
+
 <body>
-    <h1 class="bitacora"> Bitácora Diseño Desde el Código </h1>
-    <div class="contenidos">
-      <div class="contenido_clases">
-        <a href="./index.html" class="clases_n">Clase 1</a>
-        <a href="./clase-2.html" class="clases_n">Clase 2</a>
-        <a href="./clase-3.html" class="clases_n">Clase 3</a>
-        <a href="./clase-4.html" class="clases_n">Clase 4</a>
-        <a href="./clase-5.html" class="clases_n">Clase 5</a>
-        <a href="./clase-6.html" class="clases_n">Clase 6</a>
-        <a href="./clase-7.html" class="clases_n">Clase 7</a>
-        <a href="./clase-8.html" class="clases_n">Clase 8</a>
-        <a href="./clase-9.html" class="clases_n">Clase 9</a>
-        <a href="./clase-10.html" class="clases_n">Clase 10</a>
-      </div>
-    </div>
-
-    <div class="contenido_materia">
-        <h2 class="materia_titulo">Introducción al HTML</h2>
-        <p class="materia_p">
-            Nos enfocamos en conocer dintintos concepto de las estructuras de programación, de lenguaje web y característincas de estas.
-            Comnocimos ejemplos de los atributos más utilizados en la construcción de un html, conceptos como anidación, para lograr una estructura correcta de la y tipos de elementos, como los de bloque o los de línea.
-        </p>
-    </div>
-
-    <futer class="contenido_futer">
-       <h3 class="futer_titulo"> Fotografías de repositorio personal</h3>
-      
-    </futer>
+  <h1 class="bitacora"> Bitácora Diseño Desde el Código </h1>
+  <div class="contenidos">
     <div class="contenido_clases">
-      <a href="../bitácora.html" class="inicio">INICIO</a>
+      <a href="./index.html" class="clases_n">Clase 1</a>
+      <a href="./clase-2.html" class="clases_n">Clase 2</a>
+      <a href="./clase-3.html" class="clases_n">Clase 3</a>
+      <a href="./clase-4.html" class="clases_n">Clase 4</a>
+      <a href="./clase-5.html" class="clases_n">Clase 5</a>
+      <a href="./clase-6.html" class="clases_n">Clase 6</a>
+      <a href="./clase-7.html" class="clases_n">Clase 7</a>
+      <a href="./clase-8.html" class="clases_n">Clase 8</a>
+      <a href="./clase-9.html" class="clases_n">Clase 9</a>
+      <a href="./clase-10.html" class="clases_n">Clase 10</a>
     </div>
+  </div>
+
+  <div class="contenido_materia">
+    <h2 class="materia_titulo">Diagramación</h2>
+    <p class="materia_p">
+      Trabajamos con grillas en CSS, con medidas y repeticiones para estas cajas.
+      Practicamos con sitintos estilos de diagramación mediante etiquetas.
+      Planificar y pensar la página desde distintos contenedores utilizando la etiqueta div, y teniendo en cuenta que
+      los elementos de la grilla pueden utilizar áreas traslapadas.
+    </p>
+    <h3>Posiciones</h3>
+    <p>Determinar la posición de un elemento en el navegador respectoa a otros o por medio de "coordenadas"</p>
+    <ul>
+      <li>position: static;</li>
+      <li>position: relative;
+        top: 2rem;
+        left: 2rem;
+      </li>
+      <li>position: absolute;
+        top: 2rem;
+        left: 2rem;
+      </li>
+      <li>position: sticky;
+        top: 2rem;
+      </li>
+    </ul>
+    <p>ubicar elementos en posición absoluta utilizando codepen</p>
+    <div class="contenido_clases">
+      <a href="https://codepen.io/basilio/pen/YzQWaxX" class="link"> Ejercicio en codepen</a>
+    </div>
+    <h3>FlexBox</h3>
+    <p>
+      Entrega a un contenedor la habilidad para alterar el ancho o alto, y espaciados de sus elementos para ajustarse lo
+      mejor posible al espacio disponible.
+    </p>
+    <div class="contenido_clases">
+      <a href="https://codepen.io/basilio/pen/ExKQdWp" class="link"> Ejemplo</a>
+    </div>
+    <h3>Múltiple líneas</h3>
+    <p>Algunas maneras para ordenar elementos.
+      Por defecto, los elementos flexibles de un contenedor flex se ajustan al ancho disponible, uno al lado del otro en
+      la mísma línea.
+      Esto puede ser modificado a través de la propiedad flex-wrap, permitiendo que estos rompan la línea y se ubiquen
+      en una nueva línea según el ancho de los elementos.
+    </p>
+    <h3>Distribución</h3>
+    <p>Para ordenar elementos en el espacio disponible del div hay distintas etiquetas, algunas son:</p>
+    <dl>
+      <dt class="bold">justify-content</dt>
+      <dd>Alineación de elementos en el eje principal, algunas equitquetas son: flex-start | flex-end | center | space-between | space-around | space-evenly</dd>
+    <dt class="bold">align-content</dt>
+    <dd>Distribución de espacios restantes en el eje secundario: flex-start | flex-end | center | stretch | baseline </dd>
+    <dt class="bold">align-items</dt>
+    <dd>Alineación de elementos en el eje secundario: flex-start | flex-end | center | stretch | baseline</dd>
+    <dt class="bold">align-self</dt>
+    <dd>Alineación del propio elemento en el eje secundario - se aplica en un elemento flexible (no en el contenedor) :flex-start | flex-end | center | stretch | baseline</dd>
+  </dl>
+  </div>
+
+
+  <futer class="contenido_futer">
+    <h3 class="futer_titulo"> Fotografías de repositorio personal</h3>
+    <div class="contenedor">
+      <a href="·">
+        <figure>
+          <img src="./img/pantone aves-01.jpg">
+          <div class="capa">
+            <h3>
+              Cometocino
+            </h3>
+            <p>Es una especie de ave passeriforme de la familia Thraupidae.</p>
+          </div>
+        </figure>
+      </a>
+      <a href="·">
+        <figure>
+          <img src="./img/pantone aves-01.jpg">
+          <div class="capa">
+            <h3>
+              Cometocino
+            </h3>
+            <p>Es una especie de ave passeriforme de la familia Thraupidae.</p>
+          </div>
+        </figure>
+      </a>
+      <a href="·">
+        <figure>
+          <img src="./img/pantone aves-01.jpg">
+          <div class="capa">
+            <h3>
+              Cometocino
+            </h3>
+            <p>Es una especie de ave passeriforme de la familia Thraupidae.</p>
+          </div>
+        </figure>
+      </a>
+    </div>
+  </futer>
+  <div class="contenido_clases">
+    <a href="../bitácora.html" class="inicio">INICIO</a>
+  </div>
 </body>
+
 </html>
