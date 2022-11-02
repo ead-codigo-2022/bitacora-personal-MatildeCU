@@ -57,6 +57,7 @@ body {
   padding: 10px;
   align-content: center;
   text-decoration: solid;
+  text-decoration: none;
   color: #666;
   flex-wrap: wrap;
   border-radius: 10px;
