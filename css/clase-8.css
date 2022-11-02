@@ -63,7 +63,7 @@ body {
 }
 
 .inicio {
-  background-color: rgba(231, 140, 251, 0.673);
+  background-color: #E6B3BE;
   padding: 10px 20px 10px 20px;
   font-size: 1.2rem;
   align-content: center;
@@ -72,7 +72,16 @@ body {
   flex-wrap: wrap;
   border-radius: 10px;
 }
-
+.link {
+  background-color: #ffac40a1;
+  padding: 10px 20px 10px 20px;
+  font-size: 1.2rem;
+  align-content: center;
+  text-decoration: solid;
+  color: var(--color-primary);
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
 .bitacora {
   margin-left: 450px;
   margin-right: auto;
@@ -163,7 +172,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 103, 123, 0.7);
+  background: rgba(174, 174, 174, 0.7);
   transition: all 400ms ease-out;
   opacity: 0;
   visibility: hidden;
